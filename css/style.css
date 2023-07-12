@@ -28,13 +28,17 @@ a {
     z-index: 109;
 }
 .menu-style ul li a {
-    color: #fff ;
+    color: #fff !important;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     padding: 10px 20px !important;
     position: relative;
     transition: 0.5s;
-}.menu-style ul li.active a {
+}
+.menu-style ul li a:hover {
+    color: #744fa0 !important;
+}
+.menu-style ul li.active a {
     color: red !important;
 }
 .menu-style ul li:hover:last-child a {
@@ -342,6 +346,9 @@ hr {
 }
 .about-img {
     text-align: right;
+}
+.about-img img {
+    width: 100%;
 }
 /* about part end */
 

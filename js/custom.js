@@ -16,10 +16,30 @@ $('.banner-main').slick({
     dots: true,
     autoplay: true,
     autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
+      },
+    ]
   });
-
-
-
 
 
   $('.feed-text-box-main').slick({
@@ -29,6 +49,8 @@ $('.banner-main').slick({
     fade: true,
     asNavFor: '.feed-profile'
   });
+
+
   $('.feed-profile').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -39,30 +61,13 @@ $('.banner-main').slick({
     asNavFor: '.feed-text-box-main',
     centerMode: true,
     centerPadding: '10px',
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+    ]
   });
-  
-
-
-
-// let section = document.querySelectorAll("section")
-// let ulLi = document.querySelectorAll(".menu-style ul li a")
-
-// window.onscroll = () => {
-//   section.forEach(sec => {
-//     let top = window.scrollY
-//     let offset = sec.offsetTop
-//     let height = sec.offsetHeight
-//     let id = sec.getAttribute("id")
-
-//     if(top >= offset && top < offset + height){
-//       ulLi.forEach(links => {
-//         links.classList.remove("active")
-//         document.querySelector("menu-style ul li a ").classList.add("active")
-//       })
-//     }
-//   })
-// }
-
-
-
-  

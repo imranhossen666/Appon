@@ -1,0 +1,357 @@
+@media (max-width: 575.98px){
+
+    .logo-anim img {
+        width: 150px;
+    }
+    .menu-style {
+        padding: 10px 0 !important;
+        background-color: black;
+    }
+    nav button {
+        color: #fff !important;
+        font-size: 20px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .menu-style ul {
+        text-align: center;
+    }
+    .menu-style ul li a {
+        display: inline-block;
+    }
+    .menu-style ul li a::after {
+        bottom: 2px;
+    }
+
+    #banner .slick-dots {
+        right: 0;
+    }
+    .banner-text {
+        top: 100px;
+        padding-right: 30px;
+    }
+    .banner-text p {
+        padding-left: 0;
+    }
+    .ban-btn a {
+        padding: 5px 10px 5px 30px;
+        margin-top: 20px;
+    }
+    .ban-btn a i {
+        left: 6px;
+    }
+    .banner-img {
+        padding: 280px 0;
+    }
+
+    #about {
+        padding: 30px 0;
+    }
+    .about-text {
+        margin-top: 30px;
+    }
+    .about-text p {
+        padding: 0 0;
+    }
+
+    #feature {
+        padding: 50px 0 20px 0;
+    }
+    .feature-btn-main {
+        padding-bottom: 10px;
+    }
+    .feature-icon i {
+        font-size: 25px;
+    }
+    .feature-btn-text h5 {
+        font-size: 17px;
+    }
+    .feature-btn-text p {
+        font-size: 13px;
+    }
+    .feature-text {
+        margin-top: 20px;
+        padding-right: 20px;
+    }
+    .feature-text h4 {
+        margin-bottom: 0;
+    }
+    .feature-text p {
+        margin-top: 10px;
+    }
+
+    #screenshort {
+        padding: 40px 20px 20px 20px;
+    }
+    .screenshort-main {
+        margin-top: 10px;
+    }
+    #screenshort .slick-dots {
+        margin-top: 0;
+    }
+
+    #video {
+        padding: 40px 0 0 0;
+    }
+    .video-main {
+        margin-top: 20px;
+    }
+    .video-main img {
+        height: 200px;
+    }
+
+    .team-items {
+        padding-top: 120px;
+    }
+
+    .feed-main-main-main {
+        width: 100%;
+    }
+
+    .input-box {
+        flex-wrap: wrap;
+    }
+    .input-box input {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px 0 5px 10px;
+    }
+    .text-box textarea {
+        height: 100px;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .submit-btn {
+        margin-top: 20px;
+    }
+    
+    footer {
+        padding: 40px 0 10px 0;
+    }
+    .footer-icon {
+        margin-top: 20px;
+    }
+    .footer-icon i {
+        margin: 0 1px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){     /* For small landscape */
+    .logo-anim img {
+        width: 150px;
+    }
+    .menu-style {
+        padding: 10px 0 !important;
+        background-color: black;
+    }
+    nav button {
+        color: #fff !important;
+        font-size: 20px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .menu-style ul {
+        text-align: center;
+    }
+    .menu-style ul li a {
+        display: inline-block;
+    }
+    .menu-style ul li a::after {
+        bottom: 2px;
+    }
+
+    #banner .slick-dots {
+        right: 20px;
+    }
+    .banner-text {
+        top: 100px;
+        padding-right: 30px;
+    }
+    .banner-text p {
+        padding-left: 0;
+    }
+    .ban-btn a {
+        padding: 5px 10px 5px 30px;
+        margin-top: 20px;
+    }
+    .ban-btn a i {
+        left: 6px;
+    }
+    .banner-img {
+        padding: 280px 0;
+    }
+
+    #about {
+        padding: 30px 0;
+    }
+    .about-text {
+        margin-top: 30px;
+    }
+    .about-text p {
+        padding: 0 0;
+    }
+    .about-img {
+       margin-top: 20px;
+    }
+
+    #feature {
+        padding: 50px 0 20px 0;
+    }
+    .feature-btn-main {
+        padding-bottom: 10px;
+    }
+    .feature-icon i {
+        font-size: 25px;
+    }
+    .feature-btn-text h5 {
+        font-size: 17px;
+    }
+    .feature-btn-text p {
+        font-size: 13px;
+    }
+    .feature-text {
+        margin-top: 20px;
+        padding-right: 20px;
+    }
+    .feature-text h4 {
+        margin-bottom: 0;
+    }
+    .feature-text p {
+        margin-top: 10px;
+    }
+
+    #screenshort {
+        padding: 40px 20px 20px 20px;
+    }
+    .screenshort-main {
+        margin-top: 10px;
+    }
+    #screenshort .slick-dots {
+        margin-top: 0;
+    }
+
+    #video {
+        padding: 40px 0 0 0;
+    }
+    .video-main {
+        margin-top: 20px;
+    }
+    .video-main img {
+        height: 200px;
+    }
+
+    .team-items {
+        padding-top: 120px;
+    }
+
+    .feed-main-main-main {
+        width: 100%;
+    }
+
+    .input-box {
+        flex-wrap: wrap;
+    }
+    .input-box input {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px 0 5px 10px;
+    }
+    .text-box textarea {
+        height: 100px;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .submit-btn {
+        margin-top: 20px;
+    }
+    
+    footer {
+        padding: 40px 0 10px 0;
+    }
+    .footer-icon {
+        margin-top: 20px;
+    }
+    .footer-icon i {
+        margin: 0 1px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){     /* For mediam tablet */
+    .logo-anim img {
+        width: 150px;
+    }
+    .menu-style {
+        padding: 10px 0 !important;
+        background-color: black;
+    }
+    nav button {
+        color: #fff !important;
+        font-size: 20px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .menu-style ul {
+        text-align: center;
+    }
+    .menu-style ul li a {
+        display: inline-block;
+    }
+    .menu-style ul li a::after {
+        bottom: 2px;
+    }
+
+    #banner .slick-dots {
+        right: 20px;
+    }
+    .banner-text {
+        top: 150px;
+        padding-right: 30px;
+    }
+    .banner-text p {
+        padding-left: 200px;
+    }
+    .ban-btn a {
+        padding: 5px 10px 5px 30px;
+        margin-top: 20px;
+    }
+    .ban-btn a i {
+        left: 6px;
+    }
+    .banner-img {
+        padding: 280px 0;
+    }
+    .about-text {
+        margin-top: 30px;
+    }
+    .about-text p {
+        padding: 0 0;
+    }
+    .about-img {
+        margin-top: 50px;
+     }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){  
+    #banner .slick-dots {
+        right: 20px;
+    }
+    .banner-text {
+        top: 150px;
+        padding-right: 30px;
+    }
+    .banner-text p {
+        padding-left: 400px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    
+}
+@media (min-width: 1400.98px){
+    
+}
